@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/full_backup_content"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EverGreenApp"
+        tools:targetApi="31">
+
+        <!-- This is the main splash screen and the first activity to launch.
+             It requires an intent-filter to be the launcher activity. -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- OnboardingActivity is the first activity after the splash screen and needs
+             to be exported because it's launched from MainActivity. -->
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="true" />
+
+        <!-- LoginActivity is launched from OnboardingActivity, so it also needs to be exported. -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+
+        <!-- CreateAccountActivity is launched from LoginActivity, so it also needs to be exported. -->
+        <activity
+            android:name=".CreateAccountActivity"
+            android:exported="true" />
+
+        <!-- HomeActivity is a key part of the app's flow and is launched from LoginActivity,
+             so it should be exported. -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+
+        <!-- These activities are only launched from within the application,
+             so they do not need to be exported. -->
+        <activity
+            android:name=".ReportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".BillDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CollectionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReportTeaActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

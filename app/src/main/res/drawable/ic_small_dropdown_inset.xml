@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This drawable file insets the default dropdown icon to make it smaller. -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@android:drawable/arrow_down_float"
+    android:insetRight="10dp"
+    android:insetLeft="10dp" />

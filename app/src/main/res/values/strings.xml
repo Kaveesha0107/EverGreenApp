@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">EverGreenApp</string>
+
+    <!-- Onboarding Screens -->
+    <string name="onboarding_title_1">EverGreen</string>
+    <string name="onboarding_subtitle_1">Connecting Tea Gardens to Factory</string>
+    <string name="onboarding_title_2">Welcome to EverGreen</string>
+    <string name="onboarding_subtitle_2">Streamline your tea collection process with our digital platform. Connect farmers with factory collectors seamlessly</string>
+    <string name="onboarding_title_3">Track Your Collections</string>
+    <string name="onboarding_subtitle_3">Monitor daily tea collections, calculate payments automatically, and keep track of all transactions in one place.</string>
+    <string name="onboarding_title_4">Get Started Today</string>
+    <string name="onboarding_subtitle_4">Join thousands of tea farmers already using EverGreen to manage their collections efficiently.</string>
+    <string name="button_next">Next</string>
+    <string name="button_get_started">Get Started</string>
+    <string name="button_skip_for_now">Skip for now</string>
+    <string name="skip_button">Skip</string>
+
+    <!-- Login & Sign Up Screens -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="username_hint">User Name</string>
+    <string name="password_hint">Password</string>
+    <string name="enter_your_user_name">Enter your user name</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_button">Login</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="signup_text">Sign up</string>
+    <string name="create_account_title">Create Account</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="location_hint">Location/Village</string>
+    <string name="create_password_hint">Create a password</string>
+    <string name="confirm_password_hint">Confirm your password</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="enter_full_name_hint">Enter your full name</string>
+    <string name="enter_location_hint">Enter location</string>
+    <string name="login_link">Login\n</string>
+
+    <!-- Bottom Navigation -->
+    <string name="home_bottom_nav">Home</string>
+    <string name="collections_bottom_nav">Collections</string>
+    <string name="reports_bottom_nav">Reports</string>
+    <string name="profile_bottom_nav">Profile</string>
+
+    <!-- Home Screen -->
+    <string name="collection_truck_arriving">Collection truck arriving at 2:00 PM today</string>
+    <string name="total_kg_this_month">Total KG This Month</string>
+    <string name="total_earnings_this_month">Total Earnings</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="report_tea_available">Report Tea Available</string>
+    <string name="view_collection_history">View Collection History</string>
+    <string name="truck_arrival_message">Collection truck arriving at 2:00 PM today</string>
+    <string name="collection_this_month_kg">150 KG</string>
+    <string name="this_month_label">This Month</string>
+    <string name="total_earnings_lkr">15000 LKR</string>
+    <string name="quick_actions_header">Quick Actions</string>
+    <string name="home_nav_label">Home</string>
+    <string name="collections_nav_label">Collections</string>
+    <string name="reports_nav_label">Reports</string>
+    <string name="profile_nav_label">Profile</string>
+    <string name="tagline">Connecting Tea Gardens to Factory</string>
+    <string name="welcome_to_evergreen">Welcome to EverGreen</string>
+    <string name="app_name_evergreen">EverGreen</string>
+    <string name="create_account">Create Account</string>
+    <string name="login">Login</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="menu_icon_desc">Menu icon</string>
+    <string name="profile_icon_desc">Profile icon</string>
+    <string name="truck_icon_desc">Collection truck icon</string>
+    <string name="tea_leaf_icon_desc">Tea leaf icon</string>
+    <string name="arrival_time">Arriving at 2:00 PM today</string>
+    <string name="report_tea_available_button">Report Tea Available</string>
+    <string name="view_collection_history_button">View Collection History</string>
+
+    <!-- Report Tea Screen -->
+    <string name="report_tea_title">Report Tea</string>
+    <string name="tea_quantity_label">Tea Quantity (KG)</string>
+    <string name="collection_date_label">Collection Date</string>
+    <string name="additional_notes_label">Additional Notes</string>
+    <string name="additional_notes_hint">Any special notes...</string>
+    <string name="submit_button">Submit</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="full_name">Full Name</string>
+    <string name="location_village">Location/Village</string>
+    <string name="tea_quantity_kg">Tea Quantity (KG)</string>
+    <string name="collection_date">Collection Date</string>
+    <string name="additional_notes">Additional Notes</string>
+    <string name="submit">Submit</string>
+    <string name="tea_quantity_hint">25</string>
+    <string name="collection_date_hint">08 / 04 / 2025</string>
+
+    <!-- Collections Screen -->
+    <string name="collections_title">Collections</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_collected">Collected</string>
+
+    <!-- Bill Details Screen -->
+    <string name="bill_details_title">Bill Details</string>
+    <string name="collection_summary">Collection Summary</string>
+    <string name="date_label">Date</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="rate_per_kg_label">Rate per KG</string>
+    <string name="gross_amount_label">Gross Amount</string>
+    <string name="transport_fee_label">Transport Fee</string>
+    <string name="bonus_label">Bonus</string>
+    <string name="net_amount_label">Net Amount</string>
+    <string name="accept_confirm_button">Accept &amp; Confirm</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Profile</string>
+    <string name="user_name">Leo Alexander</string>
+    <string name="user_role">Tea Farmer</string>
+    <string name="total_kg_label">Total KG</string>
+    <string name="total_earnings_label">Total Earnings</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="phone_label">Phone</string>
+    <string name="location_label">Location</string>
+    <string name="edit_profile_button">Edit Profile</string>
+
+    <!-- Payment Details Screen -->
+    <string name="payment_details_title">Payment Details</string>
+    <string name="payment_method_label">Payment Method</string>
+    <string name="preferred_method">Preferred Method</string>
+    <string name="bank_name_label">Bank Name</string>
+    <string name="account_number_label">Account Number</string>
+    <string name="account_number_hint">Enter your account number</string>
+    <string name="recent_payments_label">Recent Payments</string>
+    <string name="confirm_payment_button">Confirm Payment</string>
+    <string name="back_button_desc">Back</string>
+    <string name="payment_method_title">Payment Method</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="account_number">Account Number</string>
+    <string name="recent_payments">Recent Payments</string>
+    <string name="confirm_payment">Confirm Payment</string>
+
+    <!-- Payment Success Screen -->
+    <string name="payment_successful_title">Payment Successfully!</string>
+    <string name="payment_successful_message">Your payment of LKR 20000 has been processed successfully!</string>
+    <string name="transaction_id_label">Transaction ID</string>
+    <string name="amount_label">Amount</string>
+    <string name="back_to_home_button">Back to Home</string>
+    <string name="download_receipt_button">Download Receipt</string>
+
+    <!-- Reports Screen -->
+    <string name="reports_title">Reports</string>
+    <string name="monthly_summary_title">Monthly Summary</string>
+    <string name="total_collections_label">Collections</string>
+    <string name="average_per_collection_label">Average per Collection</string>
+    <string name="total_earnings_reports_label">Total Earnings</string>
+    <string name="average_rate_label">Average Rate</string>
+    <string name="export_report_button">Export Report</string>
+
+
+    <!-- String array for Preferred Method Spinner -->
+    <string-array name="preferred_methods">
+        <item>Bank Transfer</item>
+        <item>Credit Card</item>
+        <item>PayPal</item>
+        <item>Cash</item>
+    </string-array>
+
+    <!-- String array for Bank Name Spinner -->
+    <string-array name="bank_names">
+        <item>Bank of Ceylon</item>
+        <item>Commercial Bank</item>
+        <item>Sampath Bank</item>
+        <item>People\'s Bank</item>
+    </string-array>
+
+</resources>

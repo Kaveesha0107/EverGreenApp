@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary & Accent Colors -->
+    <color name="primary_light_green">#F0FFF0</color>
+    <color name="primary_dark_green">#38761D</color>
+    <color name="accent_green">#93C47D</color>
+    <color name="primary_green">#4CAF50</color>
+    <color name="secondary_green">#4CAF50</color>
+
+    <!-- Text Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_text">#1A1A1A</color>
+    <color name="text_color_dark">#333333</color>
+    <color name="text_dark_gray">#424242</color>
+    <color name="text_color_light">#555555</color>
+    <color name="text_light_gray">#757575</color>
+    <color name="hint_color">#AAAAAA</color>
+    <color name="white_alpha">#E0FFFFFF</color>
+
+    <!-- UI & Background Colors -->
+    <color name="off_white_background">#F8F8F8</color>
+    <color name="border_color">#DDDDDD</color>
+    <color name="divider_gray">#E0E0E0</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Status & Card Colors -->
+    <color name="status_pending">#FFC107</color>
+    <color name="status_collected">#4CAF50</color>
+    <color name="bonus_color">#4CAF50</color>
+    <color name="deduction_color">#F44336</color>
+    <color name="alert_card_yellow">#FFFDE7</color>
+    <color name="icon_dark_yellow">#FFC107</color>
+    <color name="purple_card_background">#5E35B1</color>
+    <color name="alert_card_blue_light">#2962FF</color>
+    <color name="card_yellow">#F8C523</color>
+    <color name="metrics_card_green">#C4E2AC</color>
+    <color name="quick_actions_card_green">#B6D5A2</color>
+    <color name="report_button_green">#587C39</color>
+    <color name="card_light_green">#D5E8C9</color>
+    <color name="status_collected_green">#587C39</color>
+    <color name="status_pending_orange">#F8C523</color>
+
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_nav_selected">@color/status_collected</color>
+    <color name="bottom_nav_unselected">@color/dark_text</color>
+
+
+    <color name="dark_green">#2E7D32</color>
+    <color name="light_green">#E8F5E9</color>
+    <color name="button_green">#66BB6A</color>
+    <color name="text_dark">#333333</color>         <!-- Same as text_color_dark -->
+    <color name="text_grey">#616161</color>         <!-- Similar to text_light_gray -->
+    <color name="divider_grey">#E0E0E0</color>       <!-- Same as divider_gray -->
+    <color name="light_background">#F8F8F8</color>  <!-- Same as off_white_background -->
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This drawable defines the custom background for the Spinner, including a border and a small dropdown icon. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This is the background shape with rounded corners and a border. -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <corners android:radius="12dp" />
+
+
+        </shape>
+    </item>
+
+    <!-- This is the small dropdown arrow icon. It is anchored to the right side with a 6dp margin. -->
+    <!-- It uses the ic_small_dropdown_inset drawable file to reduce its visible size. -->
+    <item
+        android:drawable="@drawable/ic_small_dropdown_inset"
+        android:gravity="end|center_vertical"
+        android:right="6dp" />
+
+</layer-list>

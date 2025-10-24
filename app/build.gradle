@@ -1,0 +1,58 @@
+// Apply the Android Application plugin
+plugins {
+    id 'com.android.application'
+    // If you're using Kotlin, make sure this is also applied
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    // It's crucial to define namespace, compileSdk, and defaultConfig
+    namespace "com.example.evergreenapp"
+    compileSdk 36// Replace with your actual namespace
+    // Or your desired SDK version
+
+    defaultConfig {
+        applicationId "com.example.evergreenapp" // Replace with your actual application ID
+        minSdk 35 // Or your desired min SDK
+        targetSdk 34 // Or your desired target SDK
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    packagingOptions {
+        resources.excludes.add("META-INF/some_library_specific_file.xml") // Example
+        // For drawables, you might need to be more specific if possible,
+        // or check if the library offers customization.
+    }
+}
+
+dependencies {
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.material
+    implementation libs.androidx.activity
+    implementation libs.androidx.constraintlayout
+    // Add other necessary dependencies
+
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.espresso.core
+}
